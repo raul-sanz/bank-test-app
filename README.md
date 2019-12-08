@@ -2,6 +2,9 @@
 
 A Quasar Framework app
 
+## Demo
+https://5dec6717ab47344c3ec2c554--sharp-villani-82afb1.netlify.com/
+
 ## Install the dependencies
 ```bash
 yarn
