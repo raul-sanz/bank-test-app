@@ -1,4 +1,4 @@
-# Quasar App (bank_app)
+# Vue app (bank_app)
 
 A Quasar Framework app
 
