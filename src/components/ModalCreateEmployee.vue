@@ -15,7 +15,10 @@
             autofocus  
             class="q-mb-md" 
             label="Name" 
-            :rules="[val => !!val || 'Field is required']"/>
+            :rules="[
+              val => !!val || 'Field is required',
+              val =>  /^[A-Za-zÁÉÍÓÚáéíóúñÑ ]+$/g.test(val) || 'No special characters'
+            ]"/>
           <q-input
             ref="middle_name" 
             filled 
